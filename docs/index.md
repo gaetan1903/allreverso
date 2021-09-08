@@ -7,4 +7,4 @@
 [![](https://img.shields.io/pypi/pyversions/allreverso.svg)](https://pypi.org/project/allreverso/)
 
 
-[English](https://petitpotiron.github.io/python-reverso/en/) | [Français](https://petitpotiron.github.io/python-reverso/fr/)
+[English](en/) | [Français](fr/)
