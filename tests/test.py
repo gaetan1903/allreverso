@@ -34,3 +34,8 @@ class TestCaseModule(unittest.TestCase):
         # verification que le resultat existe
         self.assertTrue(res)
 
+
+if __name__ == '__main__':
+    runner = unittest.TestCase()
+    runner.run()
+
