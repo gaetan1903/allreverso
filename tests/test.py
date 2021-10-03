@@ -20,15 +20,23 @@ class TestCaseModule(unittest.TestCase):
     
     def test_correct(self):
         '''
-            Test du fonctionnalité de traduction
+            Test du fonctionnalité de correction de texte
         '''
         res = client.correct("fr", "Bonjoure !").text
         # verification que le resultat existe
         self.assertTrue(res)
     
+    def test_define(self):
+        '''
+            Test du fonctionnalité du defintion
+        '''
+        res = client.define("en", "boat")
+        # verification que le resultat existe
+        self.assertTrue(res)
+    
     def test_synonymize(self):
         '''
-            Test du fonctionnalité de traduction
+            Test du fonctionnalité de synonyme
         '''
         res = client.synonymize("fr", "bateau")
         # verification que le resultat existe
